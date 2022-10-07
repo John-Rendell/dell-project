@@ -1,0 +1,197 @@
+html{
+    background: url(Images/bg2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+/*Welcome*/
+#front-title{
+    margin-top: 160px;
+    text-align: center;
+    font-size: 3vw;
+    color: white;
+    padding: 1vw;
+    text-shadow: 0 0 10px white,0 0 30px  #ff99cc, 0 0 50px #ff3399, 0 0 80px  #cc0066;
+}
+
+/*Navigation Bar*/
+#navigation{
+    position: fixed;
+    margin-left: -1vw;
+    margin-top: -12.5vw;
+    border-style: solid;
+    border-width: 3px;
+    height: 4vw;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 80%);
+    color: transparent;
+}
+
+#opt{ /*for list thinggy*/
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+}
+
+#home, #projects, #about{ /*The option thinggy*/
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    float: left;
+    margin-left: 200px;
+    display: block;
+    padding: 1vw;
+}
+
+#home{
+    background-color: rgb(255, 255, 255, 20%);
+}
+
+#projects:hover{
+    background-color: rgb(255, 255, 255, 20%);
+}
+
+#about:hover{
+    background-color: rgb(255, 255, 255, 20%);
+}
+
+/*Contents*/
+.content{
+    display: block;
+    margin-top: 15vw;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 50px;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 10vw;
+    color: white;
+    background-color: rgb(0, 0, 0, 50%);
+}
+
+#headernews{
+    text-align: center;
+}
+
+#headernews, #news{
+    color: white;
+    font-size: 2vw;
+}
+
+.content{
+    margin-bottom: 100px;
+}
+
+#added{
+    list-style: "-";
+    padding: 10px;
+}
+
+#credit, #cd{
+    color: white;
+}
+
+
+/*---------------------------------------------------*/
+
+/*For mobile*/
+@media screen and (max-width: 1024px){
+    html{
+        background: url(Images/bg2.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        overflow-x: hidden;
+    }
+    
+    /*Welcome*/
+    #front-title{
+        margin-top: 160px;
+        text-align: center;
+        font-size: 5vw;
+        color: white;
+        padding: 1vw;
+        text-shadow: 0 0 10px white,0 0 30px  #ff99cc, 0 0 50px #ff3399, 0 0 80px  #cc0066;
+    }
+    
+    /*Navigation Bar*/
+    #navigation{
+        position: fixed;
+        margin-left: -2vw;
+        margin-top: -43vw;
+        border-style: solid;
+        border-width: 3px;
+        height: 10vw;
+        width: 100vw;
+        background-color: rgb(0, 0, 0, 80%);
+        color: transparent;
+    }
+    
+    #opt{ /*for list thinggy*/
+        text-decoration: none;
+        color: white;
+        font-size: 5vw;
+    }
+    
+    #home, #projects, #about{ /*The option thinggy*/
+        text-decoration: none;
+        color: white;
+        font-size: 1.5vw;
+        float: left;
+        margin-left: 20px;
+        display: block;
+        padding: 1vw;
+    }
+    
+    #home{
+        background-color: rgb(255, 255, 255, 20%);
+    }
+    
+    #projects:hover{
+        background-color: rgb(255, 255, 255, 20%);
+    }
+    
+    #about:hover{
+        background-color: rgb(255, 255, 255, 20%);
+    }
+    
+    /*Contents*/
+    .content{
+        display: block;
+        margin-top: 30vw;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 50px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom: 10vw;
+        color: white;
+        background-color: rgb(0, 0, 0, 50%);
+    }
+    
+    #headernews{
+        text-align: center;
+    }
+    
+    #headernews, #news{
+        color: white;
+        font-size: 5vw;
+    }
+
+    .content{
+        margin-bottom: 100px;
+    }
+    
+    #added{
+        list-style: "-";
+        padding: 10px;
+    }
+    
+    #credit, #cd{
+        color: white;
+    }
+}

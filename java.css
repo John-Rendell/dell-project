@@ -1,0 +1,199 @@
+html{
+  background: url(Images/bg2.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+}
+
+/*Navigation Bar*/
+#navigation{
+  position: fixed;
+  margin-left: -1vw;
+  margin-top: -1.7vw;
+  border-style: solid;
+  border-width: 3px;
+  height: 4vw;
+  width: 100vw;
+  background-color: rgb(0, 0, 0, 50%);
+  color: transparent;
+}
+
+#opt{ /*for list thinggy*/
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+}
+
+#home, #projects, #about{ /*The option thinggy*/
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  float: left;
+  margin-left: 200px;
+  display: block;
+  padding: 1vw;
+}
+
+#home:hover{
+  background-color: rgb(255, 255, 255, 20%);
+}
+
+#projects{
+  background-color: rgb(255, 255, 255, 20%);
+}
+
+#about:hover{
+  background-color: rgb(255, 255, 255, 20%);
+}
+
+/*For content*/
+.java{
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+#fortitle{
+  text-align: center;
+  padding-top: 6vw;
+  color: white;
+}
+
+#java-virus{
+    height: 30vw;
+    width: auto;
+    border-style: solid;
+    border-radius: 1vw;
+    border-width: 0.5vw;
+    color: white;
+}
+
+.paragraph-Java{
+  text-align: left;
+  display: block;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  margin-top: 5vw;
+  margin-bottom: 5vw;
+  padding: 3vw;
+  font-size: 1vw;
+
+  border-style: solid;
+  border-radius: 1vw;
+  border-width: 0.5vw;
+  color: white;
+  background-color: rgb(0, 0, 0, 50%);
+}
+
+#sr-code{
+  color: white;
+}
+
+#credit, #cd{
+  color: white;
+}
+
+
+/*---------------------------------------------------*/
+
+/*For mobile*/
+@media screen and (max-width: 1024px){
+  html{
+    background: url(Images/bg2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    overflow-x: hidden;
+  }
+  
+  /*Navigation Bar*/
+  #navigation{
+    position: fixed;
+    margin-left: -2vw;
+    margin-top: -4.5vw;
+    border-style: solid;
+    border-width: 3px;
+    height: 10vw;
+    width: 100vw;
+    background-color: rgb(0, 0, 0, 80%);
+    color: transparent;
+  }
+  
+  #opt{ /*for list thinggy*/
+    text-decoration: none;
+    color: white;
+    font-size: 5vw;
+  }
+  
+  #home, #projects, #about{ /*The option thinggy*/
+    text-decoration: none;
+    color: white;
+    font-size: 1.5vw;
+    float: left;
+    margin-left: 20px;
+    display: block;
+    padding: 1vw;
+  }
+  
+  #home:hover{
+    background-color: rgb(255, 255, 255, 20%);
+  }
+  
+  #projects{
+    background-color: rgb(255, 255, 255, 20%);
+  }
+  
+  #about:hover{
+    background-color: rgb(255, 255, 255, 20%);
+  }
+  
+  /*For content*/
+  .java{
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  
+  #fortitle{
+    text-align: center;
+    padding-top: 20vw;
+    color: white;
+  }
+  
+  #java-virus{
+      height: 50vw;
+      width: auto;
+      border-style: solid;
+      border-radius: 3vw;
+      border-width: 1vw;
+      color: white;
+  }
+  
+  .paragraph-Java{
+    text-align: left;
+    display: block;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+    padding: 10vw;
+    font-size: 5vw;
+  
+    border-style: solid;
+    border-radius: 3vw;
+    border-width: 1vw;
+    color: white;
+    background-color: rgb(0, 0, 0, 50%);
+  }  
+
+  #credit, #cd{
+    color: white;
+  }
+}
